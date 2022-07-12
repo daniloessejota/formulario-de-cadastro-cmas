@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* Estilos Globais */
+
+/* Arquivos de Fontes */
+@font-face {
+    font-family: 'bitter';
+    src: url(/adm-tec/05-aula/assets/font/bitter-font-variable/Bitter-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'manrope';
+    src: url(/adm-tec/05-aula/assets/font/manrope-font-variable/Manrope-VariableFont_wght.ttf) format('truetype');
+}
+
+
+/* Variáveis */
+* {
+    --font: 'manrope', system-ui, sans-serif;
+    --font-2: 'bitter', system-ui, sans-serif;
+
+    --cor-principal: #02004b;
+    --cor-secundaria: #fff;
+    --cor-ambiente: #eeeeee;
+
+    --shadow-heavy: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    --shadow-light: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}

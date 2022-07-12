@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/* Estilos Bootstrap customizados */
+
+.border-form {
+    border: 2px solid var(--cor-principal);
+    border-radius: 5px;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 2px solid var(--cor-principal);
+    border-radius: 0;
+}
+
+/* TÉCNICA PARA TORNAR A TABELA RESPONSIVA */
+.container-responsive {
+    overflow-x: auto;
+    height: 110vh; /* Solução encontrada para manter o cabeçalho fixo */
+}
+

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* Estilos idependentes do Bootstrap */
+
+
+body {
+    font-family: var(--font);
+    background-color: var(--cor-ambiente);
+}
+
+header, footer {
+    background-color: var(--cor-principal);
+    box-shadow: var(--shadow-light);
+}
+
+header h1 {
+    font-family: var(--font-2);
+}
+
+form {
+    background-color: var(--cor-secundaria);
+    box-shadow: var(--shadow-heavy);
+}
+
+.text-color-body {
+    color: var(--cor-secundaria);
+    text-shadow: 1px 1px 2px var(--cor-secundaria);
+}
+
+.text-color-form {
+    color: var(--cor-principal);
+}
+
+.border-textarea {
+    border-radius: 5px;
+    border-top: 2px solid var(--cor-principal);
+    border-left: 2px solid var(--cor-principal);
+    border-right: 2px solid var(--cor-principal);
+}
